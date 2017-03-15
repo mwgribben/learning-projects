@@ -1,0 +1,10 @@
+# Takes in a string and prints the reverse
+
+input_string = input("Enter a string: ");
+
+output_string="";
+
+for (i in len(input_string)):
+    output_string+=input_string[len(input_string)-i]
+
+print(output_string)
